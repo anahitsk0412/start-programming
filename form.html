@@ -14,6 +14,10 @@
       margin-bottom: 5px;
       font-weight: bold;
     }
+
+    .contact-form label.sex {
+      display: inline-block;
+    }
   </style>
 </head>
 <body>
@@ -30,11 +34,21 @@
       
       <label for="phone">Phone Number:</label>
       <input type="tel" id="phone" name="phone" placeholder="Your phone number">
-      
-      <label for="sex">Male</label>
+      <br />
+      <label for="sex" class="sex">Male</label>
       <input type="checkbox" id="sex" name="ex">
-      <label for="fsex">Female</label>
+      <label for="fsex" class="sex">Female</label>
       <input type="checkbox" id="fsex" name="ex">
+      <br />
+
+      <label for="bday" >Your Birthday</label>
+      <input type="date" id="bday" name="ex"  placeholder="Your birthday">
+
+      <label for="col">Your Favorite Color</label>
+      <input type="color" id="col" name="ex"  placeholder="Your favorite color">
+
+      <label for="photo">Your Photo</label>
+      <input type="image" id="photo" name="ex"  placeholder="Your photo">
       <br />
       <button type="submit">Submit</button>
     </form>
