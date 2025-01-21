@@ -3,6 +3,9 @@ body {
 }
 #justify {
   background: #D1EFBD;
-  padding: 20px;
+  padding: 30px;
   border: 4px dotted black;
+}
+img {
+  border-radius: 40px;
 }
