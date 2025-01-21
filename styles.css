@@ -1,3 +1,7 @@
 body {
-  backgroud: #9ce0ffc4
+  backgroud: #9ce0ffc4;
+}
+#justify {
+  backgroud: #D1EFBD;
+  padding: 20px;
 }
